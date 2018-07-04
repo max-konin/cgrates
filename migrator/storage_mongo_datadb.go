@@ -21,7 +21,7 @@ package migrator
 import (
 	"github.com/cgrates/cgrates/engine"
 	"github.com/cgrates/cgrates/utils"
-	"github.com/cgrates/mgo"
+	"github.com/globalsign/mgo"
 )
 
 const (

@@ -1,5 +1,5 @@
-hash: 2daed4c5ed5052824ae5df18b0690a85226f9e3c61c336f83db7fccc6f4ecd51
-updated: 2017-04-21T14:51:07.386488974+02:00
+hash: 5ba74838863879e38bdd85895b908b42214a47f5da35c3b0721f0397660e3e2d
+updated: 2018-07-04T15:04:20.38741+07:00
 imports:
 - name: github.com/bit4bit/gami
   version: 3a7f98e7efce7ed7f22c2169b666910b8abb15dc
@@ -21,6 +21,8 @@ imports:
   version: 3d6beed663452471dec3ca194137a30d379d9e8f
 - name: github.com/cgrates/radigo
   version: 69d4269e21990c0f120b8e60d5b75d533db7f3dd
+  subpackages:
+  - codecs
 - name: github.com/cgrates/rpcclient
   version: dddae42e9344e877627cd4b7aba075d63b452c0b
 - name: github.com/ChrisTrenkamp/goxpath
@@ -45,6 +47,8 @@ imports:
   - xsort
 - name: github.com/DisposaBoy/JsonConfigReader
   version: 33a99fdf1d5ee1f79b5077e9c06f955ad356d5f4
+- name: github.com/dlintw/goconf
+  version: dcc070983490608a14480e3bf943bad464785df5
 - name: github.com/fiorix/go-diameter
   version: d742356e99f1457ee1fb8ddc238c932e9f5ca87b
   subpackages:
@@ -55,6 +59,15 @@ imports:
   - diam/sm
   - diam/sm/smparser
   - diam/sm/smpeer
+- name: github.com/fsnotify/fsnotify
+  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
+- name: github.com/globalsign/mgo
+  version: 113d3961e7311526535a1ef7042196563d442761
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
 - name: github.com/go-sql-driver/mysql
   version: bc14601d1bd56421dd60f561e6052c9ed77f9daf
 - name: github.com/gorhill/cronexpr
@@ -114,15 +127,8 @@ imports:
   - language
   - runes
   - transform
-- name: github.com/fsnotify/fsnotify
-  version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
-- name: github.com/cgrates/mgo
-  version: e16f0d06bb7962cb4e7c8307537f017c5cfbc4cd
+- name: google.golang.org/appengine
+  version: b1f26356af11148e710935ed1ac8a7f5702c7612
   subpackages:
-  - bson
-  - internal/json
-  - internal/sasl
-  - internal/scram
-- name: github.com/dlintw/goconf
-  version: dcc070983490608a14480e3bf943bad464785df5
+  - cloudsql
 testImports: []

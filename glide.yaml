@@ -31,9 +31,6 @@ import:
   subpackages:
   - websocket
 - package: github.com/fsnotify/fsnotify
-- package: github.com/cgrates/mgo
-  subpackages:
-  - bson
 - package: github.com/ChrisTrenkamp/goxpath
 - package: github.com/mitchellh/mapstructure
 - package: github.com/cgrates/aringo
@@ -42,3 +39,6 @@ import:
 - package: github.com/cgrates/radigo
 - package: github.com/cgrates/ltcache
 - package: github.com/dlintw/goconf
+- package: github.com/globalsign/mgo
+  subpackages:
+  - bson
