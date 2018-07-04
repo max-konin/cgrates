@@ -116,8 +116,8 @@ imports:
   - transform
 - name: github.com/fsnotify/fsnotify
   version: c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9
-- name: github.com/cgrates/mgo
-  version: e16f0d06bb7962cb4e7c8307537f017c5cfbc4cd
+- name: github.com/globalsign/mgo
+  version: 113d3961e7311526535a1ef7042196563d442761
   subpackages:
   - bson
   - internal/json
